@@ -1,0 +1,27 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple HTTP Assignment",
+  "main": "./src/server.js",
+  "dependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeschwartz/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Andrew Schwartz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/aeschwartz/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/aeschwartz/Simple-HTTP-Assignment-Start#readme"
+}
